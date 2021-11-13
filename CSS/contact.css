@@ -1,0 +1,95 @@
+#main-singin{
+background-image: linear-gradient(to bottom, #fbfb0a, #faf51e, #fff,#1f233f, #1f233f);}
+}
+#mainsingin{
+	width: 50% !important;
+	text-align: center;
+	border:1px solid silver;
+	margin-left: 30% !important;
+}
+.table{
+	width: 50% !important;
+	margin-left: 23%;
+
+}
+#mainsingin thead tr #singinform{
+	font-size: 20px;
+}
+#mainsingin tr th input:focus{
+	background-color: #1f233f;
+	box-shadow:none;
+	border-radius: none;
+	border:none;
+	color:white;
+}
+#mainsingin tr th button:focus:{
+	box-shadow:none;
+	border-radius: 0px;
+	border:0px;
+}
+#mainsingin #continue{
+	background-color: #1f233f;
+	color:white;
+}
+#mainsingin #newacc{
+	background-color: #f7b900;
+}
+#mainsingin #singinform{
+	background-color: #111626;
+	color:white;
+	font-size: 20px;
+}
+
+@media screen and (max-width: 700px){
+	
+	#mainsingin{
+		width: 60% !important;
+		margin-left: 23%;
+	}
+	#mainsingin thead tr #singinform{
+	font-size: 17px;
+	}
+
+}	
+@media screen and (max-width: 600px){
+	
+	#mainsingin{
+		width: 60% !important;
+		margin-left: 20%;
+	}
+	#mainsingin #singinform{
+		font-size: 17px !important;
+	}
+	#mainsingin #continue, #mainsingin #newacc{
+		font-size: 16px;
+	}
+	#table{
+		margin-left: 18% !important;
+	}
+
+}	
+@media screen and (max-width: 390px){
+	#table{
+		margin-left: 10% !important;
+	}
+}
+
+@media screen and (max-width: 400px){
+	
+	#mainsingin{
+		width: 70% !important;
+		margin-left: 15%;
+	}
+	#mainsingin #singinform{
+		font-size: 15px !important;
+	}
+	#mainsingin #continue, #mainsingin #newacc{
+		font-size: 14px;
+	}
+	#table{
+		margin-left: 15% !important;
+	}
+
+}	
+
+

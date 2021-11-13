@@ -1,0 +1,401 @@
+@font-face{
+	font-family: 'Lora', serif;
+	font-family: 'Abril Fatface', cursive;
+}
+*{
+	font-family: 'Lora', serif;
+}
+*{
+	margin:0;
+}
+header h1 i{
+	font-family: 'Abril Fatface', cursive;
+}
+/*.........................Header Start......................*/
+header{
+	background-color: #111626;
+	height: 55px;
+}
+header h1 i{
+	color:white;
+	float: left;
+	margin-left: 3%;
+	margin-top: -5px;
+}
+header h1 i::first-Letter{
+	color:gold;
+}
+header h1 i strong b{
+	font-size:45px; 
+}
+header a{
+	float: right;
+	font-size: 18px;
+	margin-right: 3%;
+	color:white;
+	border:1px solid white;
+	margin-top: 13px;
+	padding:5px 5px 5px 5px;
+	margin-top: 8px;
+}
+header a:hover{
+	color:#f2e604;
+	transition: 0.8s;
+	border-radius: 5px;
+}
+
+/*.............................Nav Start.............................*/
+
+nav{
+	background-color: #1f233f;
+	height: 64px;
+}
+nav .searchbar{
+	float: right;
+	margin-right: 3%;
+	width:45%;
+	margin-top: -41px;
+	border:1px solid white;
+	border-radius: 5px;
+}
+ .searchbar input:focus{
+	box-shadow: none;
+}
+.searchbar button{
+	color:white;
+}
+.searchbar button:hover, .searchbar button:focus{
+	background-color:  #111626;
+	box-shadow: none;
+}
+#searchbar{
+	display: none;
+}
+#mainul{
+	margin-left: 1%;
+	padding-top: 8px;
+}
+#mainul li a{
+	font-size: 19px;
+	color:white;
+	margin-left: 20px;
+	margin-top:-3px;
+}
+#mainul li a:hover{
+	color: #f2e604;
+	transition: 1s;
+}
+ #mainul .down-in{
+	background-color: #1f233f; 
+}
+#mainul .down-in  a:hover{
+	background-color: rgba(134, 149, 232, 0);
+	margin-left: 0%;
+	margin-right: 0%;
+	transition: 0.5s;
+}
+.clear{
+	clear: both;
+}
+
+.mainproductlist{
+	background-color: #1f233f;
+	padding-bottom: 5px;
+}
+.mainproductlist h1, .mainproductlist table tr th{
+	color:white;
+}
+#table1{
+	width: 70% !important;
+	margin-left: 14%;
+}
+#table1 tr td a{
+	color:red !important;
+}
+
+
+.footer{
+	background-color: #111626;
+	height: 50px;
+}
+.footer footer{
+	color:white;
+	padding-top: 10px;
+	font-size: 17px;
+}
+.footer footer a{
+	color:blue;
+}
+.footer footer a:hover{
+	color:red;
+	text-decoration: none;
+	transition: 0.8s;
+}
+#ppl{
+	padding-top: 10px;
+}
+.mybar{
+	background-color: #821414 !important;
+}
+
+
+/*.............................800px for ph......................*/
+@media screen and (max-width: 900px){
+	header{
+		height: 45px;
+	}
+	header h1 i{
+		font-size: 30px;
+		margin-top: 2px;
+		margin-top: -3px !important;
+	}
+	header h1 i strong b{
+		font-size:35px; 
+	}
+	header a{
+		font-size: 12px;
+	}
+	#mainul{
+		display: none;
+	}
+
+	#btn1 div{
+		width: 25px;
+		height: 2px;
+		background-color: white;
+		margin-bottom: 5px;
+	}
+	#btn1{
+		padding-top: 17px;
+		padding-left: 20px;
+		cursor: pointer;
+		float:left;
+		margin-left:3%;
+		border:1px solid #14132b;
+		padding-bottom: 2px;
+		padding-right: 10px;
+		padding-left: 10px;
+		padding-top: 7px;
+		margin-top: 10px;
+		background-color:#14132b;
+		border:1px solid white;
+	}
+	#btn1:hover{
+		border:1px solid white;
+	}
+	#btn2 div{
+		width: 25px;
+		height: 2px;
+		background-color: white;
+		margin-bottom: 5px;
+
+	}
+	#btn2{
+		padding-top: 17px;
+		padding-left: 20px;
+		cursor: pointer;
+		float:left;
+		margin-left:3%;
+		border:1px solid #14132b;
+		padding-bottom: 2px;
+		padding-right: 10px;
+		padding-left: 10px;
+		padding-top: 7px;
+		margin-top: 10px;
+		background-color:#14132b;
+		display: none;
+		border:1px solid white;
+	}
+	#btn2:hover{
+		border:1px solid white;
+	}
+	nav .searchbar{
+		margin-top: 5px;
+		width: 70% !important;
+	}
+
+	nav ul{
+		background-color: #1f233f;
+		position:absolute;
+		width: 42%;
+		display: none;
+		margin-top: 50px;
+		padding-left: 50%;
+		margin-left: 0px !important;
+		z-index: -50px;
+	}
+	nav ul li{
+		display: block;
+		padding-bottom: 30px;
+		margin-left: 15%;
+		z-index: -50px;
+	}
+	nav ul li a{
+		color:white;
+		z-index: -50px;
+	}
+	.footer footer{
+		color:white;
+		padding-top: 10px;
+		font-size: 15px;
+	}
+	#ppl{
+			font-size: 30px;
+		}		
+}	
+
+/*................................600px For Phone.........................*/
+
+@media screen and (max-width: 600px){
+	header{
+		height: 45px;
+	}
+	header h1 i{
+		font-size: 28px !important;
+		margin-top: -2px !important;
+	}
+	header a{
+		font-size: 12px;
+	}
+	#mainul{
+		display: none;
+	}
+
+	#btn1 div{
+		width: 25px;
+		height: 2px;
+		background-color: white;
+		margin-bottom: 5px;
+	}
+	#btn1{
+		padding-top: 17px;
+		padding-left: 20px;
+		cursor: pointer;
+		float:left;
+		margin-left:3%;
+		border:1px solid #14132b;
+		padding-bottom: 2px;
+		padding-right: 10px;
+		padding-left: 10px;
+		padding-top: 7px;
+		margin-top: 10px;
+		background-color:#14132b;
+		border:1px solid white;
+		}
+		#btn1:hover{
+			border:1px solid white;
+		}
+	#btn2 div{
+		width: 25px;
+		height: 2px;
+		background-color: white;
+		margin-bottom: 5px;
+
+	}
+	#btn2{
+		padding-top: 17px;
+		padding-left: 20px;
+		cursor: pointer;
+		float:left;
+		margin-left:3%;
+		border:1px solid #14132b;
+		padding-bottom: 2px;
+		padding-right: 10px;
+		padding-left: 10px;
+		padding-top: 7px;
+		margin-top: 10px;
+		background-color:#14132b;
+		display: none;
+		border:1px solid white;
+		}
+		#btn2:hover{
+			border:1px solid white;
+		}
+		nav .searchbar{
+			margin-top: 5px;
+			width: 70% !important;
+		}
+
+		nav ul{
+			background-color: #1f233f;
+			position:absolute;
+			width: 56% !important;
+			display: none;
+			margin-top: 50px;
+			padding-left: 50%;
+			margin-left: 0px !important;
+			height: 280px;
+			z-index: -50px;
+		}
+		nav ul li{
+			display: block;
+			padding-bottom: 20px !important;
+			margin-left: 10% !important;
+			z-index: -50px;
+
+		}
+		nav ul li a{
+			color:white;
+			font-size: 18px !important;
+			z-index: -50px;
+		}
+		#ppl{
+			font-size: 27px;
+		}
+		#table1 tr td a{
+			font-size: 15px;
+	}
+		
+	}	
+
+/*........................400px........................*/
+
+@media screen and (max-width: 400px){
+	header h1 i{
+		font-size: 25px !important;
+	}
+	nav ul{
+		background-color: #1f233f;
+		position:absolute;
+		width: 60% !important;
+		display: none;
+		margin-top: 50px;
+		padding-left: 50%;
+		margin-left: 0% !important;
+		z-index: -50px;
+	}
+	nav ul li{
+		display: block;
+		padding-bottom: 28px;
+		margin-left: 0% !important;
+		z-index: -50px;
+		
+	}
+	nav ul li a{
+		font-size: 18px !important;
+		z-index: -50px;
+	}
+	#ppl{
+			font-size: 23px;
+		}
+	#table1{
+		margin-left: 10%;
+	}
+	#table1 tr th{
+		font-size: 14px;
+	}
+	#table1 tr td a{
+			font-size: 13px;
+	}
+	.footer footer{
+		color:white;
+		padding-top: 10px;
+		font-size: 13px;
+	}
+}
+ .sticky-top .activeme{
+	/*background-color: red;*/
+	border-bottom: 1px solid gold;
+	margin-top: -5px;
+}
+

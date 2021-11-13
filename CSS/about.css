@@ -1,0 +1,251 @@
+.clear{
+	clear: both;
+}
+.mainabout{
+background-image: linear-gradient(to bottom, #fbfb0a, #faf51e, #fff,#1f233f, #1f233f);}
+/*#f8ef2a*/
+#aboutme{
+	background-image: linear-gradient(to bottom, #fbfb0a, #faf51e);
+}
+#aboutme{
+	width: 95%;
+	margin-left: 2%;
+	margin-right: 2%;
+	border:none;
+}
+#aboutme img{
+	border-radius: 100%;
+	width: 48%;
+	margin-left: 45%
+}
+
+#aboutme #aboutp{
+		padding-left: 10% !important;
+		font-size: 19px;
+	}
+	#aboutme1{
+		display: none;
+	}
+	#aboutme p a{
+		color:red;
+	}
+	#a{
+		color:red;
+	}
+/*............................Aboutme.........................*/
+@media screen and (max-width: 1200px){
+	#aboutme{
+	width: 95%;
+	margin-left: 2%;
+	margin-right: 2%;
+	}
+	#aboutme img{
+		border-radius: 100%;
+		width: 59%;
+	}
+	#aboutme #aboutp{
+		font-size: 18px;
+	}
+
+}
+@media screen and (max-width: 900px){
+	#aboutme{
+	width: 95%;
+	margin-left: 2%;
+	margin-right: 2%;
+	}
+	#aboutme img{
+		border-radius: 100%;
+		width: 65%;
+	}
+	#aboutme #aboutp{
+		font-size: 17px;
+		margin-top: -15px !important;
+	}
+}
+
+@media screen and (max-width: 800px){
+	#aboutme{
+		display: none;
+	}
+	#aboutme1{
+		display: block;
+	}
+	#aboutme1 img{
+		width: 110px;
+		float:left;
+		border-radius: 97%;
+		margin-left: 15%;
+	}
+	#aboutme1 p{
+		float:right;
+		margin-right: 15%;
+	}
+	#aboutme1 p a{
+		color:red;
+	}
+
+}
+@media screen and (max-width: 650px){
+	#aboutme1 img{
+		width: 100px;
+		float:left;
+		border-radius: 85%;
+		margin-left: 8%;
+	}
+	#aboutme1 p{
+		float:right;
+		margin-right: 8%;
+		margin-top: -5px;
+		font-size: 15px;
+	}
+}
+@media screen and (max-width: 500px){
+	#aboutme1 img{
+		width: 95px;
+		float:left;
+		border-radius: 80%;
+		margin-left: 4%;
+	}
+	#aboutme1 p{
+		float:right;
+		margin-right: 4%;
+		margin-top: -5px;
+		font-size: 14px;
+	}
+}
+@media screen and (max-width: 430px){
+	#aboutme1 img{
+		width: 92px;
+		float:left;
+		border-radius: 80%;
+		margin-left: 2%;
+	}
+	#aboutme1 p{
+		float:right;
+		margin-right: 2%;
+		margin-top: -5px;
+		font-size: 13px;
+	}
+}
+@media screen and (max-width: 400px){
+	#aboutme1 img{
+		width: 70px;
+		float:left;
+		border-radius: 70%;
+		margin-left: 1%;
+	}
+	#aboutme1 p{
+		float:right;
+		margin-right: 1%;
+		margin-top: -5px;
+		font-size: 13px;
+	}
+}
+@media screen and (max-width: 370px){
+	#aboutme1 img{
+		width: 60px;
+		float:left;
+		border-radius: 60%;
+		margin-left: 1%;
+	}
+	#aboutme1 p{
+		float:right;
+		margin-right: 1%;
+		margin-top: -5px;
+		font-size: 12px;
+	}
+}
+@media screen and (max-width: 340px){
+	#aboutme1 img{
+		width: 55px;
+		float:left;
+		border-radius: 55%;
+		margin-left: 0%;
+	}
+	#aboutme1 p{
+		float:right;
+		margin-right: 0%;
+		margin-top: -5px;
+		font-size: 11px;
+	}
+
+}
+
+/*..............................Agents......................*/
+/*............................800px..........................*/
+
+@media screen and (max-width: 800px){
+	#agent{
+		font-size: 30px !important;
+	}
+}
+/*................................580px..........................*/
+
+@media screen and (max-width: 580px){
+	#table tr{
+		font-size: 13px;
+	}
+}
+/*................................500px..........................*/
+
+@media screen and (max-width: 500px){
+	#agent{
+		font-size: 27px !important;
+	}
+	#table {
+		margin-left: 0%;
+	}
+	#table tr{
+		font-size: 11px;
+	}
+}
+/*................................450px..........................*/
+
+@media screen and (max-width: 450px){
+	#table {
+		margin-left: 0% !important;
+	}
+	#table tr{
+		font-size: 10px;
+	}
+}
+/*................................400px..........................*/
+
+@media screen and (max-width: 400px){
+	#agent{
+		font-size: 25px !important;
+	}
+	
+	#table tr{
+		font-size: 11px;
+	}
+}
+/*................................360px..........................*/
+
+@media screen and (max-width: 360px){
+	#agent{
+		font-size: 25px !important;
+	}
+	#table{
+		margin-left: 0%;
+	}
+	
+	#table tr{
+		font-size: 10px;
+	}
+}
+/*................................340px..........................*/
+
+@media screen and (max-width: 340px){
+	#agent{
+		font-size: 25px !important;
+	}
+	#table{
+		margin-left: 0%;
+	}
+	
+	#table tr{
+		font-size: 9px;
+	}
+}

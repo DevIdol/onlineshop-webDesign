@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="icon" href="Image/Dd1.jpg">
+	<meta charset="UTF-8">
+	<title>Bill</title>
+	<link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="CSS/nav.css">
+	<link rel="stylesheet" href="CSS/contact.css">
+	<link rel="stylesheet" href="CSS/bill.css">
+	<link rel="stylesheet" href="CSS/bootstrap.min.css">
+	<link rel="stylesheet" href="CSS/swiper.min.css">
+	 <script src="JS/swiper.min.js"></script>
+	<script src="JS/jquery.js"></script>
+	<script src="JS/popper.js"></script>
+	<script src="JS/bootstrap.min.js"></script>
+	<script src="JS/nav.js"></script>
+	<script src="JS/index.js"></script>
+</head>
+<body>
+	<header>
+		<h1><i><strong><b>O</b></strong>ne Click Shop</i></h1>
+		<a href="about.html">About Us</a>
+	</header>
+	<div class="clear"></div>
+
+	<!-- ............................Nav Start..................................... -->
+		
+<nav class="sticky-top">
+	<div id="btn1" onclick="openul()">
+			<div></div>
+			<div></div>
+			<div></div>
+		</div>
+		<div id="btn2" onclick="closeul()">
+			<div></div>
+			<div></div>
+			<div></div>
+		</div>
+
+		<ul class="nav" id="mainul">
+		  <li class="nav-item">
+		    <a class="nav-link" href="index.html" id="act">Home</a>
+		  </li>
+		  <li class="nav-item dropdown">
+		    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Product</a>
+		    <div class="dropdown-menu down-in">
+		      <a class="dropdown-item" href="desktop.html">Desktop</a>
+		      <a class="dropdown-item" href="laptop.html">Laptop</a>
+		      <a class="dropdown-item" href="phone.html">Phone</a>
+		      <div class="dropdown-divider"></div>
+		      <a class="dropdown-item" href="all.html">All</a>
+		    </div>
+		  </li>
+		  <li class="nav-item">
+		    <a class="nav-link" href="bill.html" id="for-act1">Bill</a>
+		  </li>
+		  <li class="nav-item">
+		     <a class="nav-link" href="contact.html" id="for-act2">Contact</a>
+		  </li>
+		</ul>
+
+		<div class="input-group mb-3 searchbar">
+		 <input type="text" class="form-control" placeholder="Search here..." aria-label="Recipient's username" aria-describedby="button-addon2">
+			  <div class="input-group-append">
+			    <button class="btn btn-outline-secondary" type="button" id="button-addon2">Search</button>
+			 </div>
+		</div>
+</nav>
+
+<div class="clear" id="main-singin" onclick="closeul()">
+  <br>
+   <table class="table table-borderless text-center" id="mainsingin">
+  <thead>
+    <tr>
+      <th scope="col" id="singinform">Complete Bill Form</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row"><input type="text" class="form-control" placeholder="Enter your name"></th>
+    </tr>
+    <tr>
+      <th scope="row"><input type="email" class="form-control" placeholder="Enter your email or ph no"></th>
+    </tr>
+    <tr>
+     <th scope="row">
+     	 <select onchange="Selectme()" class="form-control select" id="city-name">
+							      <option><--Select your city--></option>
+							      <option value="yg">Yangon</option>
+							      <option value="mdl">ManLay</option>
+							      <option value="kl">Kalay</option>
+							      <option value="npd">Nayphyidaw</option>
+							    </select>
+     </th>
+    </tr>
+    <tr>
+     <th scope="row">
+     	 <input  type="text" class="form-control" id="add-deli-time" placeholder="Delivery Time">
+     </th>
+    </tr>
+    <tr>
+      <th scope="row"><input type="text" class="form-control" placeholder="Enter product"></th>
+    </tr>
+     <tr>
+    </tr>
+     <tr>
+     <th scope="row">
+     	 <textarea class="form-control msg" id="exampleFormControlTextarea1" rows="3" placeholder="Message"></textarea>
+     </th>
+    </tr>
+     <th scope="row">
+		<button type="button" class="btn btn-lg btn-block" id="newacc">Submit</button>
+     </th>
+  </tbody>
+</table>
+
+<div class="mainproductlist">
+	<h1 class="text-center" id="ppl">Product Price List</h1>
+			<table class="table table-borderless text-center" id="table1">
+		  <thead>
+		    <tr>
+		     	<th scope="col">Desktop</th>
+		      <th scope="col">Laptop</th>
+		      <th scope="col">Phone</th>
+		    </tr>
+		  </thead>
+		  <tbody>
+		    <tr>		      
+		      <td><a href="ddlist.html">Dell</a></td>
+		       <td><a href="ldlist.html">Dell</a></td>
+		       <td><a href="samsung.html">Samsung</a></td>     
+		    </tr>
+		    <tr>		      
+		    <td><a href="dalist.html">Acer</a></td>
+		      <td><a href="lalist.html">Acer</a></td>
+		      <td><a href="oppo.html">Oppo</a></td>
+		    </tr>
+		    <tr>		      
+		      <td><a href="dllist.html">Lenovo</a></td>
+		      <td><a href="lllist.html">Lenovo</a></td>
+		      <td><a href="mi.html">Mi</a></td>
+		    </tr>
+		   
+		  </tbody>
+		</table>	
+	</div>
+</div>
+</div>
+<div class="clear"></div>
+	<div class="footer text-center">
+		<footer>Copyringt &copy; <b id="year"></b> | Designed By <a href="https://www.facebook.com/devidol.mm/">DevIdol</a></footer>
+	</div>
+</div>
+	
+<script>
+	function Selectme(){
+			// alert('hi');
+			var city = document.getElementById('city-name').value;
+			// alert(city);
+			switch(city){
+				case "yg":
+				document.getElementById('add-deli-time').value = "1-5 days";
+				document.getElementById('add-deli-time').setAttribute('style','background-color:#1f233f;color:white');
+				break;
+
+				case "mdl":
+				document.getElementById('add-deli-time').value = "1-3 days";
+				document.getElementById('add-deli-time').setAttribute('style','background-color:#1f233f;color:white');
+				break;
+
+				case "kl":
+				document.getElementById('add-deli-time').value = "24 Hours";
+				document.getElementById('add-deli-time').setAttribute('style','background-color:#1f233f;color:white');
+				break;
+
+				case "npd":
+				document.getElementById('add-deli-time').value = "1-2 days";
+				document.getElementById('add-deli-time').setAttribute('style','background-color:#1f233f;color:white');
+				break;
+
+				default:
+				document.getElementById('add-deli-time').value = "";
+
+			}
+		}
+		var date=new Date();
+		var getyear= date.getFullYear();
+		document.getElementById('year').innerHTML=getyear;
+
+</script>
+
+</body>
+</html>

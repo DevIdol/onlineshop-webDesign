@@ -1,0 +1,17 @@
+#mainsingin tr th input:focus{
+	background-color:#1f233f;
+	color:white;
+}
+#mainsingin tr th select:focus{
+	background-color:#1f233f;
+	color:white;
+	box-shadow: none;
+	border:none;
+}
+#mainsingin tr th textarea:focus{
+	background-color:#1f233f;
+	color:white;
+	box-shadow: none;
+	border:none;
+
+}

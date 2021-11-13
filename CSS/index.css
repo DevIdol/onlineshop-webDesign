@@ -1,0 +1,744 @@
+*{
+	margin:0px;
+}
+.mainpoint{
+	background-image: linear-gradient(to bottom, #fbfb0a, #faf51e, #f8ef2a, #1f233f);
+}
+
+
+
+.clear{
+	clear: both;
+}
+@font-face{
+	font-family: 'Lora', serif;
+	font-family: 'Abril Fatface', cursive;
+}
+*{
+	font-family: 'Lora', serif;
+}
+/*...............................Slider.............................*/
+.slide img{
+	margin-top: -90px !important;
+	height: 400px;
+
+}
+#next1{
+	color:gold;
+	background-color: black;
+	height: 20px;
+	margin-top: 11%;
+	width: 5%;
+}
+#ani-main{
+	width: 100%;
+	height: 40px;
+	background-color: #0e0e2d;
+	position:relative;
+}
+#ani-in{
+	width: 253px;
+	height: 50px;
+	font-size: 20px;
+	animation-name: heymove;
+	animation-duration: 30s;
+	animation-iteration-count: infinite;
+	position: absolute;
+	color:white;
+	padding-top: 4px;
+}
+@keyframes heymove{
+	0%{
+		top:0;
+		left:0;
+	}
+	45%{
+		left:73%;
+		top:0;
+	}
+	59%{
+		right:0;
+		top:0;
+	}
+	100%{
+		right:73%;
+		top:0;
+	}	
+}
+
+/*............................Shopping Center .....................*/
+
+#maincard{
+	margin-left: 1% !important;
+	margin-right: 1% !important;
+}
+#cardforphone{
+	display: none;
+}
+#card800{
+	display: none;
+}
+
+
+
+/*.............................Swiper.................................*/
+	#swiper p a{
+		color: red;
+	}
+   .swiper-container {
+   	position: relative;
+      width: 100%;
+      height: 50%;
+    }
+    .swiper-container  img{
+	width: 100%;
+	height: 250px;
+	}
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      /*background: #fff;*/
+
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+    #phoneswiper{
+    	display: none;
+    }
+    #card-for-ph{
+    	margin-left: 3%;
+    	margin-right: 3%;
+    	width: 40%;
+    	
+    }
+#card-for-pc{
+	margin-left: 1%;
+	margin-right: 1%;
+	margin-top: 10px;
+}
+#card-for-pc img{
+	height: 50% !important;
+}
+#card-for-pc #cancel-forpc{
+	display: none;
+}
+#previous{
+	background-color:blue;
+	color:white;
+	margin-left: 1%;
+	border:1px solid black;
+	float: left;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 1px;
+	padding-bottom: 2px;
+	font-size: 20px;
+	display: none;
+}
+#next{
+	float:right;
+	margin-right: 1%;
+	background-color: blue;
+	border:1px solid black;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 1px;
+	padding-bottom: 2px;
+	font-size: 20px;
+	color:white;
+
+}
+
+
+
+
+    
+  /*........................Promo....................*/
+
+	/*.......................Buy.............................*/
+#click-buy{
+	background-color:#0e0e2d;
+	height: 39px; 
+	border-radius: 2px;
+}
+#click-buy:focus{
+	box-shadow: none;
+}
+#click-buy  small{
+	font-size: 18px;
+	color:red;
+}
+
+.form-group input, .form-group .select, .form-group .msg{
+	border-radius: 1px;
+	border:1px solid #0e0e2d;
+}
+.form-group input:focus, .form-group .select:focus, .form-group .msg:focus{
+	box-shadow: none;
+	border-radius: 0.8px;
+	border:1px solid gold;
+	background-color: #1f233f;
+	color:white !important;
+}
+.sub button{
+	background-color:#1f233f;
+	color:white;
+	border-radius: 1px !important;
+	float: right !important;
+}
+.sub button:focus, .sub button:hover{
+	box-shadow: none;
+	border-radius: 0.8px;
+	border:1px solid gold !important;
+	color:red !important;
+	transition: 0.5s;
+}
+#billtitle{
+	margin-left: 30% !important;
+	background-color:#111626;
+	color:white; 
+	height: 40px;
+	width: 40%;
+	padding-left: 4px;
+	padding-top: 5px;
+	border: 1px solid #111626;
+}
+.modal-header .close:focus, .modal-header .close:hover {
+    padding: 1rem 1rem;
+    margin: -1rem -1rem -1rem auto;
+    background-color: red;
+    box-shadow: none !important;
+}
+#productname, #productprice{
+	background-color: #1f233f;
+	color:white !important;
+	border:1px solid gold;
+}
+#con-agent{
+	color:red !important;
+}
+ .btn-secondary {
+    color: #fff;
+    background-color: red !important;
+    border-color: red !important;
+}
+.btn-primary {
+    color: #fff;
+    background-color: blue !important;
+    border-color: blue !important;
+}
+#seemore{
+	background-color: #111626;
+	margin-top: 15px;
+}
+#seemore a{
+	color:red;
+	font-size:28px;
+}
+ #promoph{
+	display: none;
+}
+
+#div1{
+	margin-left: 20%;
+	margin-right: 20%;
+	height: 100% !important;
+}
+#div2{
+	height: 100% !important;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+#div1 img, #div2 img{
+	height: 90%;
+}
+#promopc-body ul {
+	margin-left: 10%;
+	font-size: 18px;
+}
+#promopc-buy{
+	margin-left: 15%;
+	color:black !important;
+	font-size: 18px;
+}
+#titlepromo-ph{
+	display: none;
+}
+#off{
+	padding-top: 10px;
+	border-radius:50px;
+	background-color: red;
+}
+#click-buy{
+	margin-left:20px;	
+}
+#contactagent{
+	color:red !important;
+}
+.progress{
+	background-color: silver !important;
+	height: 10% !important;
+}
+.progress .progress-bar{
+	width: 25%;
+	background-color: red;
+}
+
+
+
+
+
+/*.............................800px for ph......................*/
+@media screen and (max-width: 900px){
+
+	.slide img{
+		height: 330px;
+	}
+	.swiper-container  img{
+	width: 100%;
+	height: 130px !important;
+	}
+	#card-for-pc img{
+	height: 50% !important;
+}
+
+	#ani-main{
+		width: 100%;
+		height: 38px !important;
+		background-color: #0e0e2d;
+		position:relative;
+	}
+	#ani-in{
+		width: 233px;
+		height: 50px;
+		font-size: 18px;
+		animation-name: heymove;
+		animation-duration: 20s;
+		animation-iteration-count: infinite;
+		position: absolute;
+		color:white;
+		padding-top: 4px;
+	}
+	@keyframes heymove{
+		0%{
+			top:0;
+			left:0;
+		}
+		45%{
+			left:60%;
+			top:0;
+		}
+		59%{
+			right:0;
+			top:0;
+		}
+		100%{
+			right:60%;
+			top:0;
+		}	
+	}
+	#shopping{
+		font-size: 30px;
+	}
+	#cardcancel{
+		display: none;
+	}
+	#card-for-pc #cancel-forpc{
+		display: block;
+	}
+	#card-for-pc #cancel-forpc p{
+		font-size: 15px;
+	}
+	#card-for-pc #cancel-forpc p a{
+		color:red;
+	}
+	#cancel-for800{
+		display: none;
+	}
+	#swiper p{
+		font-size: 13px;
+	}
+	#swiper p a{
+		color:red;
+	}
+	#seemore a{
+		color:red;
+		font-size:25px;
+	}
+	#promoph{
+		display: block;
+		border:1px solid silver;
+		height: 150px;
+		margin-top: 5px;
+	}
+	#promoph .notiph{
+		background: url('../Image/pro1.jpg');
+		background-size: cover;
+		height:100%;
+		float: left;
+		width: 45%;
+	}
+	#promoph .notiph h6{
+		background-color: red;
+		border-radius: 100px;
+		font-size: 15px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		float: right;
+		padding-left: 13px;
+		padding-right: 13px;
+		text-align: center;
+		margin-top: -20px;
+		margin-right: -20px;
+		color:white;
+	}
+	#promoph p{
+		width: 42%;
+		height: 91%;
+		float: right;
+		font-size: 15px;
+		padding-top: 15px;
+	}
+	#promoph a{
+		color:red;
+	}
+	#promopc{
+		display: none;
+	}
+	#div2, #div2{
+		display: none;
+	}
+	#titlepromo-ph{
+		display: block;
+		font-size: 30px;
+	}
+
+
+	
+
+}
+
+/*................................600px For Phone.........................*/
+
+@media screen and (max-width: 600px){
+
+	.slide img{
+		height: 250px;
+	}
+
+	#ani-main{
+		width: 100%;
+		height: 36px !important;
+		background-color: #0e0e2d;
+		position:relative;
+	}
+	#ani-in{
+		width: 205px;
+		height: 50px;
+		font-size: 16px;
+		animation-name: heymove;
+		animation-duration: 15s;
+		animation-iteration-count: infinite;
+		position: absolute;
+		color:white;
+		padding-top: 4px;
+	}
+	@keyframes heymove{
+		0%{
+			top:0;
+			left:0;
+		}
+		45%{
+			left:49%;
+			top:0;
+		}
+		59%{
+			right:0;
+			top:0;
+		}
+		100%{
+			right:49%;
+			top:0;
+		}	
+	}
+	#shopping{
+		font-size: 28px;
+		padding-top: 20px;
+
+	}
+	.swiper-container-free-mode .swiper-wrapper {
+		margin: 28px auto !important;
+		}
+
+	#maincard{
+		display: none;
+	}
+	#nextswiper{
+		display: none;
+	}
+
+	#card-for-pc{
+		display: none;
+	}
+	#cardforphone{
+		display: block;
+		border:1px solid silver;
+		height: 125px;
+		margin-bottom: 8px;
+	}
+	#cardforphone img{
+		width: 45%;
+		height: 115px !important;
+		float: left;
+		margin-top: 5px;
+		margin-left: -5px;
+	}
+	#cardforphone p{
+		width: 45%;
+		height: 80%;
+		float: right;
+		font-size: 15px;
+		padding-top: 10px;
+	}
+	#cardforphone a{
+		color:red;
+	}
+	#cardforphone a:hover{
+		color:red;
+	}
+	#phoneswiper{
+		display: block;
+	}
+	#seemore a{
+		color:red;
+		font-size:24px;
+	}
+	#swiper{
+		display: none;
+	}
+	#promopc{
+		display: none;
+	}
+
+	#promoph{
+		display: block;
+		border:1px solid silver;
+		height: 120px;
+		margin-top: 5px;
+	}
+	#promoph .notiph{
+		background: url('../Image/pro2.jpg');
+		background-size: cover;
+		height:100%;
+		float: left;
+		width: 45%;
+		margin-left: -5px;
+	}
+	#promoph .notiph h6{
+		background-color: red;
+		border-radius: 100px;
+		font-size: 14px;
+			padding-top: 10px;
+		padding-bottom: 10px;
+		float: right;
+		padding-left: 13px;
+		padding-right: 13px;
+		text-align: center;
+		margin-top: -20px;
+		margin-right: -20px;
+		color:white;
+	}
+	#promoph p{
+		width: 42%;
+		height: 91%;
+		float: right;
+		font-size: 15px;
+		margin-top: -10px;
+	}
+	#promoph a{
+		color:red;
+	}
+
+	#phdevices1{
+		display: none;
+	}
+}
+/*.............................For 400px........................*/
+
+@media screen and (max-width: 400px){
+	.slide img{
+			height: 225px;
+		}
+
+	#ani-main{
+		width: 100%;
+		height: 27px !important;
+		background-color: #0e0e2d;
+		position:relative;
+	}
+	#ani-in{
+		width: 178px;
+		height: 50px;
+		font-size: 14px;
+		animation-name: heymove;
+		animation-duration: 15s;
+		animation-iteration-count: infinite;
+		position: absolute;
+		color:white;
+		padding-top: 4px;
+	}
+	@keyframes heymove{
+		0%{
+			top:0;
+			left:0;
+		}
+		45%{
+			left:41%;
+			top:0;
+		}
+		59%{
+			right:0;
+			top:0;
+		}
+		100%{
+			right:41%;
+			top:0;
+		}	
+	}
+	#shopping{
+		font-size: 25px;
+	}
+	#maincard{
+		display: none;
+	}
+	#cardforphone{
+		display: block;
+		border:1px solid silver;
+		height: 112px;
+		margin-bottom: 5px;
+	}
+	#cardforphone img{
+		width: 45%;
+		height: 100px !important;
+		float: left;
+		margin-top: 5px;
+		margin-left: -5px;
+	}
+	#cardforphone p{
+		width: 45%;
+		height: 70%;
+		float: right;
+		font-size: 13px;
+		padding-top: 6px;
+	}
+	#seemore a{
+		color:red;
+		font-size:22px;
+	}
+	#promoph{
+		display: block;
+		border:1px solid silver;
+		height: 120px;
+		margin-top: 5px;
+	}
+	#promoph a{
+		color:red;
+	}
+	#promoph .noti{
+		background: url('../Image/pro2.jpg');
+		background-size: cover;
+		height:100%;
+		float: left;
+		width: 45%;
+	}
+	#promoph .noti h6{
+		background-color: red;
+		border-radius: 100px;
+		font-size: 12px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		float: right;
+		padding-left: 13px;
+		padding-right: 13px;
+		text-align: center;
+		margin-top: -20px;
+		margin-right: -20px;
+		color:white;
+	}
+	#promoph p{
+		width: 42%;
+		height: 91%;
+		float: right;
+		font-size: 15px;
+		margin-top: -7px;
+	}
+	#promopc{
+		display: none;
+	}
+
+	#titlepromo-ph{
+		display: block;
+		font-size: 25px;
+	}
+	#promoph{
+		display: block;
+		border:1px solid silver;
+		height: 115px;
+		margin-top: 5px;
+	}
+	#promoph .notiph{
+		background: url('../Image/pro2.jpg');
+		background-size: cover;
+		height:100%;
+		float: left;
+		width: 45%;
+		margin-left: -5px !important;
+	}
+	#promoph .notiph h6{
+		background-color: red;
+		border-radius: 100px;
+		font-size: 15px;
+			padding-top: 10px;
+		padding-bottom: 10px;
+		float: right;
+		padding-left: 13px;
+		padding-right: 13px;
+		text-align: center;
+		margin-top: -20px;
+		margin-right: -20px;
+		color:white;
+	}
+	#promoph p{
+		width: 42%;
+		height: 91%;
+		float: right;
+		font-size: 13px;
+		padding-bottom: 10px;
+	}
+	#promoph a{
+		color:red;
+	}
+	#previous{
+		font-size: 17px;
+	}
+	#next{
+		font-size: 17px;
+	}
+
+
+}
+
+#devices1{
+	display: none;
+}

@@ -1,0 +1,38 @@
+.maindesktop{
+  background-image: linear-gradient(to bottom, #fbfb0a, #faf51e, #f8ef2a, #fff);
+}
+#pcstore{
+	margin-top: 10px;
+}
+#phstore{
+	display: none;
+}
+
+
+@media screen and (max-width: 900px){
+	#pcstore{
+	font-size: 30px;
+	}
+}
+
+@media screen and (max-width: 600px){
+	#pcstore{
+		display: none;
+	}
+	#phstore{
+		display: block;
+		font-size: 28px;
+	}
+}	
+
+@media screen and (max-width: 400px){
+	#pcstore{
+		display: none;
+	}
+	#phstore{
+		display: block;
+		font-size: 25px;
+	}
+
+
+}	
