@@ -1,5 +1,7 @@
 *{
-	margin:0px;
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
 }
 .mainpoint{
 	background-image: linear-gradient(to bottom, #fbfb0a, #faf51e, #f8ef2a, #1f233f);

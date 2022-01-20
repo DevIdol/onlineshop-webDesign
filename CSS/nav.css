@@ -45,7 +45,9 @@ header a:hover{
 }
 
 /*.............................Nav Start.............................*/
-
+#btn2 .menu-close{
+	color: white !important;
+}
 nav{
 	background-color: #1f233f;
 	height: 64px;
